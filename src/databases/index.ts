@@ -6,7 +6,7 @@ const cardData = [
   },
   {
     id: 2,
-    question: "Apa hal yang pernah kamu cari di GOOGLE SEARCH",
+    question: "Apa hal paling aneh yang pernah kamu cari di GOOGLE SEARCH",
   },
   {
     id: 3,
@@ -67,12 +67,71 @@ const cardData = [
   },
   {
     id: 15,
-    question: "pa yang paling kamu takutkan terjadi di masa depan?",
+    question: "apa yang paling kamu takutkan terjadi di masa depan?",
   },
   {
     id: 16,
     question:
       "Jika boleh memilih siapapun di dunia ini untuk menjadi pasangan hidupmu, kamu akan memilih siapa?",
+  },
+  {
+    id: 17,
+    question:
+      "Caraku menunjukan rasa sayang kepada orang lain adalah dengan...",
+  },
+  {
+    id: 18,
+    question:
+      "Jika mesin waktu ditemukan, kemana kamu akan pergi? masa lalu atau masa depan",
+  },
+  {
+    id: 19,
+    question: "Berapa persentase pengaruh orang lain bagimu?",
+  },
+  {
+    id: 20,
+    question:
+      "Jika kamu diberikan kemampuan untuk menemui orang yang sudah meninggal, siapa yang paling ingin kamu temui?",
+  },
+  {
+    id: 21,
+    question: "Apa ketakutan terbesarmu?",
+  },
+  {
+    id: 22,
+    question: "Siapakah karakter film atau televisi favoritmu?",
+  },
+  {
+    id: 23,
+    question: "Apa yang membuatmu semangat menjalani hidup sekarang?",
+  },
+  {
+    id: 24,
+    question:
+      "Bagaimana cara kamu berdamai dengan hal paling buruk yang pernah terjadi dalam hidup kamu?",
+  },
+  {
+    id: 25,
+    question:
+      "Apakah kamu bersedia membuka amplop yang berisikan tanggal kematianmu?",
+  },
+  {
+    id: 26,
+    question:
+      "Hal apa yang akan kamu lakukan agar terlihat berbeda dengan orang lain?",
+  },
+  {
+    id: 27,
+    question:
+      "Jika sebuah kebahagiaan hanya bisa diukur oleh uang, apakah pekerjaan yang seharusnya kamu jalani saat ini?",
+  },
+  {
+    id: 28,
+    question: "Apa pengalaman terbaikmu selama hidup?",
+  },
+  {
+    id: 28,
+    question: "Apa pengalaman terburukmu selama hidup?",
   },
 ];
 

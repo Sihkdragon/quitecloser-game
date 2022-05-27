@@ -27,7 +27,7 @@ const CardPage = () => {
           </span>
         </div>
         <div className="flex justify-center mt-3">
-          <Button classname="mx-auto w-full" goto="../play">
+          <Button classname="mx-auto w-full" goto={`../play#${id}`}>
             Pick Another Card
           </Button>
         </div>

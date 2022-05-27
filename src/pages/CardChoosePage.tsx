@@ -1,10 +1,27 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Heading from "../components/atom/Heading";
 import GameCard from "../components/molecules/GameCard";
 import cardData from "../databases";
+
+interface RandomItem {
+  id: number;
+  question: string;
+}
+interface RandomData extends Array<RandomItem> {}
 const CardChoosePage = () => {
   const Data = cardData;
-  const listItems = Data.map((data) => (
+  // const RandomizedData = Data[Math.floor(Math.random() * Data.length)];
+  const [Random, setRandomData] = useState<RandomData>([]);
+  useEffect(() => {
+    const RandomizedData = [];
+    for (let i = 1; i <= 4; i++) {
+      RandomizedData.push(Data[Math.floor(Math.random() * Data.length)]);
+    }
+    setRandomData(RandomizedData);
+  }, []);
+
+  const listItems = Random.map((data) => (
     // Correct! Key should be specified inside the array.
     <GameCard key={data.id} id={data.id} />
   ));
