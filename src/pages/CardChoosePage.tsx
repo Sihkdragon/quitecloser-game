@@ -29,7 +29,7 @@ const CardChoosePage = () => {
     <>
       <Heading>Quite Close</Heading>
 
-      <section className=" w-full mt-5 px-15 h-full px-8">
+      <section className=" w-full mt-10 px-15 h-full px-8">
         <div className="flex justify-between">
           <h3 className="text-light">Choose Card</h3>
           <NavLink to={"/"}>
@@ -37,7 +37,7 @@ const CardChoosePage = () => {
           </NavLink>
         </div>
 
-        <div className="grid grid-cols-2 gap-x-4">{listItems}</div>
+        <div className="grid grid-cols-2 gap-x-4 mt-10">{listItems}</div>
       </section>
     </>
   );

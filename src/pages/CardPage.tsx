@@ -15,9 +15,9 @@ const CardPage = () => {
     <>
       <Heading>Quite Close</Heading>
 
-      <section className=" w-full mt-5 px-15 h-full px-8">
+      <section className=" w-full mt-10 px-15 h-full px-8">
         <h3 className="text-light">Your Card</h3>
-        <div className="h-[410px] mt-5 flex flex-col items-center border-2 border-light rounded-md relative">
+        <div className="h-[410px] mt-5 flex flex-col items-center border-2 border-light rounded-md relative px-10">
           <LogoBG />
           <p className="text-light text-xl tracking-wider font-bold text-center mt-10">
             {text}
