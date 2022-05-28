@@ -19,7 +19,7 @@ const CardChoosePage = () => {
       RandomizedData.push(Data[Math.floor(Math.random() * Data.length)]);
     }
     setRandomData(RandomizedData);
-  }, []);
+  }, [Data]);
 
   const listItems = Random.map((data) => (
     // Correct! Key should be specified inside the array.

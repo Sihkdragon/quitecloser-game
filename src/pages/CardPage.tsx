@@ -35,17 +35,4 @@ const CardPage = () => {
     </>
   );
 };
-const getData = (key: string) => {
-  let data;
-  let ls = localStorage.getItem(key);
-  if (typeof ls === "string") {
-    data = JSON.parse(ls);
-    return data;
-  }
-  return null;
-};
-const saveData = (key: string, data: any) => {
-  localStorage.setItem(key, JSON.stringify(data));
-  getData(key);
-};
 export default CardPage;
