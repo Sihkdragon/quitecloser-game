@@ -1,10 +1,9 @@
-import React from "react";
 import Button from "../components/atom/Button";
 import Heading from "../components/atom/Heading";
 import LogoBG from "../components/atom/img/LogoBG";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-
+import { atom, useAtom } from "jotai";
 const Home = () => {
   return (
     <div className="w-full h-full">

@@ -1,15 +1,19 @@
 import LogoBG from "../atom/img/LogoBG";
-
+import { useAtom } from "jotai";
 import { useNavigate } from "react-router-dom";
 
+import { ID } from "../../databases/helpers";
 interface PropsGameCard {
   id: number;
 }
 const GameCard = ({ id }: PropsGameCard) => {
+  const [RemoveID, setRemoveID] = useAtom(ID);
+
   const Navigate = useNavigate();
   return (
     <div
       onClick={() => {
+        setRemoveID([...RemoveID, id]);
         Navigate("../play/" + id, { replace: true });
       }}
       id={id.toString()}
