@@ -67,7 +67,7 @@ const cardData = [
   },
   {
     id: 15,
-    question: "apa yang paling kamu takutkan terjadi di masa depan?",
+    question: "Apa yang paling kamu takutkan terjadi di masa depan?",
   },
   {
     id: 16,
@@ -247,19 +247,19 @@ const cardData = [
   },
   {
     id: 56,
-    question: "deskripsikan pertemananmu dengan judul film",
+    question: "Deskripsikan pertemananmu dengan judul film",
   },
   {
     id: 57,
-    question: "deskripsikan hubungan terakhirmu dengan judul film",
+    question: "Deskripsikan hubungan terakhirmu dengan judul film",
   },
   {
     id: 58,
-    question: "deskripsikan pertemananmu dengan judul lagu",
+    question: "Deskripsikan pertemananmu dengan judul lagu",
   },
   {
     id: 59,
-    question: "deskripsikan hubungan terakhirmu dengan judul lagu",
+    question: "Deskripsikan hubungan terakhirmu dengan judul lagu",
   },
   {
     id: 61,
@@ -294,6 +294,207 @@ const cardData = [
   {
     id: 68,
     question: "Di umurmu yang keberapa kamu akan menikah?(jika belum)",
+  },
+  {
+    id: 69,
+    question: "Apa hal yang paling kamu sesali selama hidup",
+  },
+  {
+    id: 70,
+    question: "Sebutkan minimal 2 hal negatif dari dirimu sendiri!",
+  },
+  {
+    id: 71,
+    question: "Sebutkan minimal 2 hal positif dari dirimu sendiri!",
+  },
+  {
+    id: 72,
+    question:
+      "Siapa orang yang kamu harap untuk menangisi kamu saat kamu meninggal?",
+  },
+  {
+    id: 73,
+    question: "Apa yang kamu harapkan apabila nanti kamu sudah meninggal?",
+  },
+  {
+    id: 74,
+    question: "Mana yang lebih penting, Manajemen waktu atau Manajemen uang?",
+  },
+  {
+    id: 75,
+    question: "Apa yang ingin kamu lakukan untuk bersenang-senang?",
+  },
+  {
+    id: 76,
+    question: "Apa yang paling tidak kamu sukai tentang orang lain?",
+  },
+  {
+    id: 77,
+    question: "Apa yang paling tidak kamu sukai tentang diri sendiri?",
+  },
+  {
+    id: 78,
+    question:
+      "Kalau kamu punya gaji 100 juta dalam sebulan,kira-kira apa yang akan kamu lakukan?",
+  },
+  {
+    id: 79,
+    question:
+      "Jika suatu hari kamu diberi kesempatan untuk bertemu dengan tokoh atau seorang yang menjadi idola kamu, kamu ingin bertemu dengan siapa?",
+  },
+  {
+    id: 78,
+    question:
+      "Kalau kamu punya gaji 100 juta dalam sebulan,kira-kira apa yang akan kamu lakukan?",
+  },
+  {
+    id: 79,
+    question: "Sebutkan satu kalimat mutiara yang menjadi kesukaanmu!",
+  },
+  {
+    id: 80,
+    question:
+      "Jika kamu dimintai nasehat oleh teman tentang cinta apa nasehat yang akan kamu berikan?",
+  },
+  {
+    id: 81,
+    question:
+      "Jika kamu dimintai nasehat oleh teman tentang hidup apa nasehat yang akan kamu berikan?",
+  },
+  {
+    id: 82,
+    question: "Berapa jumlah sahabat atau teman paling dekat yang kamu miliki?",
+  },
+  {
+    id: 83,
+    question: "Bagaimana cara agar kamu terhibur saat kamu sedih",
+  },
+  {
+    id: 84,
+    question:
+      "Jika memang ada dunia setelah kematian dan terdapat neraka didalamnya, apa yang kamu bayangkan tentangnya?",
+  },
+  {
+    id: 84,
+    question:
+      "Jika memang ada dunia setelah kematian dan terdapat neraka didalamnya, apa yang kamu bayangkan tentangnya?",
+  },
+  {
+    id: 85,
+    question:
+      "Apa hal yang dapat orang lain lakukan sehingga kamu tidak bisa memaafkannya?",
+  },
+  {
+    id: 86,
+    question: "Menurut Anda apa bagian terbesar dari persahabatan?",
+  },
+  {
+    id: 87,
+    question: "Apa jenis komedi yang kamu suka?",
+  },
+  {
+    id: 88,
+    question: "Apakah kamu tipe orang yang mudah tersinggung? Kenapa?",
+  },
+  {
+    id: 89,
+    question: "Apakah kamu memiliki fobia terhadap sesuatu? jika ada sebutkan!",
+  },
+  {
+    id: 90,
+    question: "Apa pendapatmu tentang berbakti kepada orang tua?",
+  },
+  {
+    id: 91,
+    question: "Seberapa banyak pengetahuanmu tentang memasak?",
+  },
+  {
+    id: 92,
+    question:
+      "Apa hal yang paling kamu rindukan tentang menjadi seorang anak-anak?",
+  },
+  {
+    id: 93,
+    question: "Apakah kamu adalah orang yang kompetitif?",
+  },
+  {
+    id: 94,
+    question:
+      "Apakah kamu memiliki kebiasaan buruk yang ingin kamu tinggalkan?",
+  },
+  {
+    id: 95,
+    question: "Apa yang kamu bayangkan tentang surga?",
+  },
+  {
+    id: 96,
+    question:
+      "Menurutmu apakah ada bakat tersembunyi yang dimiliki setiap orang disini?Jika iya sebutkan!",
+  },
+  {
+    id: 97,
+    question: "Apa pendapatmu tentang penampilan?",
+  },
+  {
+    id: 98,
+    question: "Apa yang dapat kamu 'jual' dalam lingkungan sosial?",
+  },
+  {
+    id: 99,
+    question:
+      "Apakah kamu pernah berharap untuk dilahirkan di waktu yang berbeda?",
+  },
+  {
+    id: 100,
+    question: "Apakah kamu ingin hidup abadi?",
+  },
+  {
+    id: 100,
+    question: "Apakah kamu ingin hidup abadi?",
+  },
+  {
+    id: 101,
+    question: "Menurutmu, apa yang harus aku ketahui tentangmu sebagai teman?",
+  },
+  {
+    id: 102,
+    question: "Kecerdasan atau penampilan, mana yang lebih kamu hargai?",
+  },
+  {
+    id: 103,
+    question: "Apakah kamu percaya cinta pada pandangan pertama?",
+  },
+  {
+    id: 104,
+    question:
+      "Bagaimana tanggapanmu tentang 'pertemanan laki-laki dan perempuan adalah omong kosong'?",
+  },
+  {
+    id: 105,
+    question: "Jelaskan pendapatmu tentang menerima",
+  },
+  {
+    id: 106,
+    question: "Jelaskan pendapatmu tentang memberi",
+  },
+  {
+    id: 107,
+    question:
+      "Jika kamu terpilih sebagai presiden, sebutkan satu hal yang akan kamu ubah tentang negara!",
+  },
+  {
+    id: 108,
+    question: "Apa pendapatmu tentang diri setiap orang yang ada disini?",
+  },
+  {
+    id: 107,
+    question:
+      "Jika kamu diberikan pilihan untuk bahagia selamanya di dunia atau diberikan tiker masuk surga. Mana yang kamu pilih?",
+  },
+  {
+    id: 108,
+    question:
+      "Sebutkan tiga alasan mengapa menurutmu kamu akan menjadi pasangan yang buruk",
   },
 ];
 

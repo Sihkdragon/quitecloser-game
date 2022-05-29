@@ -20,12 +20,12 @@ const CardPage = () => {
 
       <section className=" w-full mt-10 px-15 h-full px-8 flex flex-col">
         <h3 className="text-light">Your Card</h3>
-        <div className="h-[410px] mt-5 flex flex-col items-center border-2 border-light rounded-md relative px-10">
+        <div className="h-[550px] mt-5 flex flex-col items-center border-2 border-light rounded-md relative px-10">
           <LogoBG />
           <p className="text-light text-xl tracking-wider font-bold text-center mt-10">
             {text}
           </p>
-          <span className="text-gold font-semibold absolute bottom-4 text-center">
+          <span className="text-gold font-semibold my-4 absolute bottom-4 text-center">
             "Honesty is the first chapter in the book of wisdom"
           </span>
         </div>
